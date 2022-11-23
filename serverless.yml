@@ -1,0 +1,13 @@
+org: minkowalentin
+app: rym-playlist-crawl
+service: crawl-playlist
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
